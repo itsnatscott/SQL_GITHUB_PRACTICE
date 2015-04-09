@@ -5,11 +5,14 @@ All the attributes from all the receipts
 SELECT * FROM receipts;
 
 The store and item names from all the receipts
-**answer**
+SELECT store item FROM receipts;
+
 All the attributes from all purchases made at Toys R Us
-**answer**
+SELECT * FROM receipts WHERE store = "Toys R Us";
+
 The item name of each purchase made at Strand.
-**answer**
+SELECT item  FROM receipts WHERE store = "Strand";
+
 The total number of items Peter purchased
 **answer**
 The total number of items purchased at Sears
