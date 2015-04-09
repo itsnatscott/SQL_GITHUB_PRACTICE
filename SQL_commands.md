@@ -2,7 +2,8 @@ CREATE TABLE receipts (id INTEGER PRIMARY KEY , store  TEXT , item TEXT , number
 
 
 All the attributes from all the receipts
-**answer**
+SELECT * FROM receipts;
+
 The store and item names from all the receipts
 **answer**
 All the attributes from all purchases made at Toys R Us
