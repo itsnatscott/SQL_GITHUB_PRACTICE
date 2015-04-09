@@ -14,9 +14,12 @@ The item name of each purchase made at Strand.
 SELECT item  FROM receipts WHERE store = "Strand";
 
 The total number of items Peter purchased
-**answer**
+SELECT  number_of_items FROM receipts
+
 The total number of items purchased at Sears
-**answer**
+SELECT  number_of_items FROM receipts WHERE store = "Sears"
+(49) - Sum function?
+
 All the attributes of receipts where Peter bought multiple items.
 **answer**
 The average number of items purchased on a trip to JC Penny
